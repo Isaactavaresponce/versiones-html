@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bitacora del Dia</title>
+        <link rel="icon" href="./imagenes/icono.ico">
+        
+    </head>
+    <body>
+        <div>
+            <h1 ALIGN="center">BITACORA DE <br> CLASE</h1>
+            <h3 ALIGN="right">01/02/2023</h3>
+    
+            <h1>HTML</h1>
+    
+            <p ><strong>En esta clase del dia de hoy</strong> vimos a usar por primera vez html5, <br>
+                ademas vimos etiquetas que existen empezamos a hacer una bitacora para poner <br>
+                todo lo que haremos en clases. </p>
+    
+                <img src="./imagenes/imagen.jpg" >
+                <img src="./imagenes/images2.jpg" >
+        </div>
+    </body>
+
+</html>
