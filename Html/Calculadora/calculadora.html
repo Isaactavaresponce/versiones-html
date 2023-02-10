@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>La Calculadora</title>
+
+    </head>
+    <body>
+        <form action="">
+            <label>Numero 1</label>
+            <input type="text" id="numero1"><br>
+            <br>
+            <label>Numero 2</label>
+            <input type="text" id="numero2" ><br>
+            <br>
+            <label>Resulatdo</label>
+            <input type="text" id="resulatdo" disabled>
+            <br>
+            <br>
+            <input type="button" value="sumar" onclick="ejecuta('+')">
+            <input type="button" value="restar" onclick="ejecuta('-')">
+            <input type="button" value="multiplicar" onclick="ejecuta('*')">
+            <input type="button" value="dividir" onclick="ejecuta('/')">
+            <input type="reset">
+        <br>
+        </form>
+
+        <script>
+            const ejecuta = function(operacion){
+                var n1=document.getElementById('numero1').value;
+                var n2=document.getElementById('numero2').value;
+                if (operacion=='+'){
+                    re=parseInt(n1)+parseInt(n2);
+                }else if (operacion=='-'){
+                    re=parseInt(n1)-parseInt(n2);
+                }else if (operacion=='*'){
+                    re=parseInt(n1)*parseInt(n2);
+                }else if (operacion=='/'){
+                    re=parseInt(n1)/parseInt(n2);
+                }
+                
+                document.getElementById('resulatdo').value=re
+            }
+        </script>
+    </body>
